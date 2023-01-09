@@ -1,4 +1,6 @@
-
+.hero {
+  background: #2F303A;
+}
 .logo-title {
   color: #2196f3;
   font-family: "Releway";
@@ -8,8 +10,8 @@
   text-decoration: none;
 }
 .logo-head {
-    color: #000000;
-  }
+  color: #000000;
+}
 .logo-footer {
   color: #ffffff;
 }
@@ -96,4 +98,35 @@ color: #757575;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.nav-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.contacts-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.footer {
+  background: #2F303A;
+}
+.address-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #FFFFFF
 }
