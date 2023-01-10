@@ -3,11 +3,19 @@
 .specifics-list,
 .ocupation-list,
 .team-list,
-.address-list {
+.address-list,
+.portfolio-filtr-link,
+.project-link {
   list-style: none;
+
 }
 .nav-text,
-.contacts-text {
+.contacts-text,
+.project-con {
+  text-decoration: none;
+}
+.project-title,
+.project-text {
   text-decoration: none;
 }
 .hero {
@@ -65,7 +73,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -95,7 +102,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -106,7 +112,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -139,21 +144,21 @@
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #FFFFFF
 }
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.button-filtr {
+  width: 112px;
+  height: 38px;
+  left: 726px;
+  top: 174px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #F5F4FA;
+  border-radius: 4px;
 }
