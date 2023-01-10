@@ -7,16 +7,6 @@
 .portfolio-filtr-link,
 .project-link {
   list-style: none;
-
-}
-.nav-text,
-.contacts-text,
-.project-con {
-  text-decoration: none;
-}
-.project-title,
-.project-text {
-  text-decoration: none;
 }
 .hero {
   background: #2F303A;
@@ -161,4 +151,53 @@
   letter-spacing: 0.03em;
   background: #F5F4FA;
   border-radius: 4px;
+}
+.project-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.project-item {
+  text-decoration: none;
+}
+.nav-text {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+color: #212121;
+}
+.contacts-text {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header :hover,
+.header :focus {
+  color: #2196F3;
+}
+.address :hover,
+.address :focus {
+  color: #2196F3;
 }
