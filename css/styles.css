@@ -131,7 +131,3 @@
 .address-link :focus {
   color: var(--accent-color);
 }
-.check-point {
-  list-style: none;
-  color: var(--addres-text);
-}
