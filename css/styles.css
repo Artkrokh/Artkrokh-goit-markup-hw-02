@@ -6,6 +6,9 @@
   --accent-color: #2196f3;
   --text-color: #757575;
 }
+.nav-text.current {
+  color: var(--accent-color);
+}
 .body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -59,7 +62,6 @@
   left: 692px;
   top: 430px;
   background: var(--accent-color);
-  border-radius: 4px;
 }
 .specifics-title {
   text-transform: uppercase;
@@ -78,24 +80,27 @@
   color: var(--title-color);
 }
 .personal-text {
+  font-weight: 400;
   color: var(--text-color);
 }
 .nav-link {
+  font-weight: 500;
   color: var(--title-color);
 }
 .contacts-link {
+  font-weight: 500;
   color: var(--text-color);
 }
 .footer {
-  
   background: var(--fon-color);
 }
 .address-text {
+  font-weight: 400;
   text-decoration: none;
   color: var(--hero-color);
 }
 .button-filtr {
-  border-radius: 4px;
+  font-weight: 500;
 }
 .project-title {
   color: var(--title-color);
