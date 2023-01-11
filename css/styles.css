@@ -1,3 +1,10 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(#212121);
+  background-color: var(#FFFFFF);
+}
 .nav-list,
 .contacts,
 .specifics-list,
@@ -26,7 +33,6 @@
   color: #ffffff;
 }
 .hero-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -34,7 +40,6 @@
   color: #ffffff;
 }
 .hero-button {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -44,11 +49,9 @@
   left: 692px;
   top: 430px;
   background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .specifics-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -58,7 +61,6 @@
   color: #212121;  
 }
 .specifics-text {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -67,7 +69,6 @@
   color: #757575;
 }
 .ocupation-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -77,7 +78,6 @@
   color: #212121;
 }
 .team-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -87,7 +87,6 @@
   color: #212121;
 }
 .personal-title {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -97,7 +96,6 @@
   color: #212121;
 }
 .personal-text {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -107,7 +105,6 @@
   color: #757575;
 }
 .nav-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -116,7 +113,6 @@
   color: #212121;
 }
 .contacts-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -128,7 +124,6 @@
   background: #2F303A;
 }
 .address-text {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -153,7 +148,6 @@
   border-radius: 4px;
 }
 .project-title {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -162,7 +156,6 @@
   color: #212121;
 }
 .project-text {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -175,7 +168,6 @@
 }
 .nav-text {
   text-decoration: none;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +177,6 @@ color: #212121;
 }
 .contacts-text {
   text-decoration: none;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
