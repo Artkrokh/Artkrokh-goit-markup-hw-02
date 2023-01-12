@@ -31,6 +31,12 @@
 .location-link {
   list-style: none;
 }
+.nav {
+  display: flex;
+}
+.header {
+  display: flex;
+}
 .nav-list {
   display: flex;
 }
