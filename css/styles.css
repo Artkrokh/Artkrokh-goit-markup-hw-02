@@ -43,6 +43,7 @@
   margin-left: 93px;
 }
 .contacts {
+  column-gap: 50px;
   display: flex;
 }
 .logo-title {
