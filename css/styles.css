@@ -153,17 +153,15 @@
   text-decoration: none;
   color: var(--title-color);
 }
-<<<<<<< HEAD
 .nav-list .contacts :hover,
 .header :focus {
-=======
+  color: var(--accent-color);}
 .nav-link :hover,
 .nav-link :focus {
   color: var(--accent-color);
 }
 .contacts-link :hover,
 .contacts-link :focus {
->>>>>>> 6ac256f389830107f6702d8ee0219e88eef32dca
   color: var(--accent-color);
 }
 .address-link :hover,
