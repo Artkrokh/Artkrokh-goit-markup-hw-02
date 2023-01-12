@@ -31,8 +31,11 @@
 .location-link {
   list-style: none;
 }
-.hero {
-  background: var(--fon-color);
+.nav-list {
+  display: flex;
+}
+.contacts {
+  display: flex;
 }
 .logo-title {
   color: var(--accent-color);
@@ -47,6 +50,9 @@
 }
 .logo-footer {
   color: var(--hero-color);
+}
+.hero {
+  background: var(--fon-color);
 }
 .hero-title {
   text-transform: uppercase;
@@ -105,18 +111,6 @@
   font-weight: 500;
   color: var(--text-color);
 }
-.footer {
-  background: var(--fon-color);
-}
-.address-text {
-  text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--addres-text);
-}
 .button-filtr {
   font-weight: 500;
   border: none;
@@ -164,6 +158,18 @@
 .contacts-link :focus {
   color: var(--accent-color);
 }
+.footer {
+  background: var(--fon-color);
+}
+.address-text {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--addres-text);
+}
 .address-link :hover,
 .address-link :focus {
   color: var(--accent-color);
@@ -171,11 +177,4 @@
 .portfolio-filtr-link :hover,
 .portfolio-filtr-link :focus {
   background-color: var(--accent-color);
-}
-.nav-list {
-  display: flex;
-
-}
-.contacts {
-  display: flex;
 }
