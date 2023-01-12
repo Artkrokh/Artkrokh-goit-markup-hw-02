@@ -39,6 +39,7 @@
 }
 .nav-list {
   display: flex;
+  column-gap: 50px;
 }
 .contacts {
   display: flex;
