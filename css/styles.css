@@ -126,7 +126,7 @@
   text-decoration: none;
   color: var(--title-color);
 }
-.header :hover,
+.nav-list .contacts :hover,
 .header :focus {
   color: var(--accent-color);
 }
