@@ -91,6 +91,10 @@
 .specifics {
   display: flex;
 }
+.specifics-list {
+  display: flex;
+
+}
 .specifics-title {
   font-weight: 700;
   font-size: 14px;
