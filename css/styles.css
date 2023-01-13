@@ -119,17 +119,20 @@
 }
 .ocupation-list {
   display: flex;
+  column-gap: 30px;
 }
 .ocupation-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
   color: var(--title-color);
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
   color: var(--title-color);
 }
 .personal-title {
