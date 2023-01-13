@@ -120,7 +120,7 @@
 .ocupation-list {
   display: flex;
   column-gap: 30px;
-  margin: 0 auto;
+  margin: auto;
 }
 .ocupation-title {
   font-weight: 700;
