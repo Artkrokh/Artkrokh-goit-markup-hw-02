@@ -88,6 +88,9 @@
   border-radius: 4px;
   display: block;
 }
+.specifics {
+  display: flex;
+}
 .specifics-title {
   font-weight: 700;
   font-size: 14px;
